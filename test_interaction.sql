@@ -11,6 +11,5 @@ INSERT INTO users (name, email) VALUES (?, ?);
 -- name: find-all-users
 SELECT * from users;
 
-
 -- name: drop-users-table
 DROP TABLE users;
